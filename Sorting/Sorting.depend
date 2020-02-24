@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1582556294 source:/media/hossain-hm/f20d6c00-b9d7-4e55-85d0-6c809f8d34a4/Algorithm/Sorting/src/HeapSorting.cpp
+	"HeapSorting.h"
+
+1582556265 /media/hossain-hm/f20d6c00-b9d7-4e55-85d0-6c809f8d34a4/Algorithm/Sorting/include/HeapSorting.h
+	"Sorting.h"
+
+1582557191 /media/hossain-hm/f20d6c00-b9d7-4e55-85d0-6c809f8d34a4/Algorithm/Sorting/include/Sorting.h
+
+1582557199 source:/media/hossain-hm/f20d6c00-b9d7-4e55-85d0-6c809f8d34a4/Algorithm/Sorting/src/Sorting.cpp
+	"Sorting.h"
+
+1582557156 source:/media/hossain-hm/f20d6c00-b9d7-4e55-85d0-6c809f8d34a4/Algorithm/Sorting/main.cpp
+	<iostream>
+	"HeapSorting.h"
+

@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1582742454 source:d:\algorithms\s\src\sorting.cpp
+	"Sorting.h"
+
+1582726906 d:\algorithms\sorting\include\sorting.h
+
+1582743272 source:d:\algorithms\s\main.cpp
+	<iostream>
+	"Sorting.h"
+	"HeapSorting.h"
+
+1582726904 d:\algorithms\sorting\include\heapsorting.h
+	"D:\Algorithms\Sorting\include\Sorting.h"
+
+1582744496 source:d:\algorithms\s\src\priority_queue.cpp
+	"priority_queue.h"
+
+1582743517 d:\algorithms\s\include\priority_queue.h
+
+1582744006 source:d:\algorithms\s\src\heapsorting.cpp
+	"HeapSorting.h"
+	"priority_queue.h"
+	<iostream>
+
+1582741480 d:\algorithms\s\include\heapsorting.h
+	"Sorting.h"
+	"priority_queue.h"
+
+1582742197 d:\algorithms\s\include\sorting.h
+

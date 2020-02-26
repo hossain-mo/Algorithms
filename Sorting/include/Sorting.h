@@ -7,17 +7,15 @@ class Sorting
     public:
         Sorting();
         virtual ~Sorting();
-        virtual int Sort();
+        virtual void Sort()=0;
         void setNumbers(int *numbers);
         int* getNumbers();
-
+        int* numbers;
     protected:
 
     private:
-    int* numbers;
-    protected:
 
-    private:
+
 };
 
 #endif // SORTING_H

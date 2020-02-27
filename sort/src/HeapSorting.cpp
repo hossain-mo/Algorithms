@@ -54,15 +54,11 @@ void HeapSorting::pq_insert(int  item){
     }
 }
 void HeapSorting::make_heap(){
-    for(int i=0 ;i<10; i++){
-            cout<<*(this->numbers+i)<< " ";
-    }cout<<endl;
+
     for(int i=0 ;i<10; i++){
       this->pq_insert(*(this->numbers+i));
     }
-     for(int i=1 ;i<=10; i++){
-            cout<<*(this->pq->data+i)<< " ";
-    }cout<<endl;
+
 }
 void HeapSorting::bubble_down(int pos){
     int child_pos = this->pq_child(pos);

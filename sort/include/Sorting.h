@@ -9,7 +9,6 @@ class Sorting
         virtual ~Sorting();
         virtual void Sort()=0;
         void setNumbers(int *numbers);
-        int* getNumbers();
         int* numbers;
     protected:
 

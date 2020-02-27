@@ -9,11 +9,12 @@
 
 1582757823 d:\algorithms\sort\include\priority_queue.h
 
-1582761798 source:d:\algorithms\sort\main.cpp
+1582815330 source:d:\algorithms\sort\main.cpp
 	<iostream>
 	"Sorting.h"
 	"HeapSorting.h"
 	"MergeSorting.h"
+	"QuickSorting.h"
 
 1582757803 d:\algorithms\sort\include\heapsorting.h
 	"Sorting.h"
@@ -31,4 +32,10 @@
 
 1582761937 d:\algorithms\sort\include\mergesorting.h
 	"Sorting.h"
+
+1582815101 d:\algorithms\sort\include\quicksorting.h
+	"Sorting.h"
+
+1582816410 source:d:\algorithms\sort\src\quicksorting.cpp
+	"QuickSorting.h"
 

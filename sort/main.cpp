@@ -2,6 +2,7 @@
 #include "Sorting.h"
 #include "HeapSorting.h"
 #include "MergeSorting.h"
+#include "QuickSorting.h"
 using namespace std;
 
 int main()
@@ -24,6 +25,14 @@ int main()
     cout<< "apply merge sort\n";
      for(int i=0 ;i<10; i++){
             cout<< arr2[i]<< " ";
+    }cout<<endl;
+    int arr3[10]={8,7,10,3,2,6,1,5,9,4};
+    QuickSorting* obj3 =  new QuickSorting();
+    obj3->setNumbers(arr3);
+    obj3->Sort(0,9);
+    cout<< "apply merge sort\n";
+     for(int i=0 ;i<10; i++){
+            cout<< arr3[i]<< " ";
     }cout<<endl;
     return 0;
 }

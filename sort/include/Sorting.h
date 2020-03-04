@@ -9,8 +9,8 @@ class Sorting
         virtual ~Sorting();
         virtual void Sort()=0;
         void setNumbers(int numbers[]);
-        void swap(int first_element,int second_element);
-        int  numbers [10];
+        void swap(int first_index ,int second_index);
+        int numbers[10];
     protected:
 
     private:

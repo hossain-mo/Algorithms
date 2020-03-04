@@ -1,4 +1,6 @@
 #include "InsertionSorting.h"
+// insertion sort take O(n^2) in worst and average case, O(n) in best
+//work by devide array to 2 parts insert from (unsorted part to sorted part in order place)
 InsertionSorting::InsertionSorting() {
 
 }

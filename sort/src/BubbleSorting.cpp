@@ -1,4 +1,6 @@
 #include "BubbleSorting.h"
+//bubble sort take O(n^2) in worst and average , O(n) in best
+//this algo buuble max element in last index 
 BubbleSorting::BubbleSorting() {
 
 }

@@ -1,7 +1,9 @@
-#include "MergeSorting.h"
+#include "..\..\..\Project1\Project1\MergeSorting.h"
 #include <iostream>
 #include <queue>
 using namespace std;
+//take in best and average and worst (n lg n)
+//this algo is unde devide and conquire technique it devide the array reqursively then merge it
 MergeSorting::MergeSorting()
 {
     //ctor

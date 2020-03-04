@@ -1,4 +1,4 @@
-#include "QuickSorting.h"
+#include "..\..\..\Project1\Project1\QuickSorting.h"
 //need randomize list before apply it to choose median element as pivot each time to take O(n lg n)
 QuickSorting::QuickSorting()
 {

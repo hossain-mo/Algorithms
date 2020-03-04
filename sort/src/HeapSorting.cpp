@@ -1,5 +1,5 @@
-#include "HeapSorting.h"
-#include "priority_queue.h"
+#include "..\..\..\Project1\Project1\HeapSorting.h"
+#include "..\..\..\Project1\Project1\priority_queue.h"
 #include <iostream>
 //heap is in-place sorting algorithm take O(n lg n)
 using namespace std;

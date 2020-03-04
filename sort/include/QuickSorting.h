@@ -14,7 +14,7 @@ class QuickSorting : public Sorting
 
     private:
         int partition(int low,int high);
-        void swap(int f_element,int s_element);
+        
 };
 
 #endif // QUICKSORTING_H

@@ -20,11 +20,7 @@ void QuickSorting::Sort(int low,int high){
         this->Sort(pivot+1,high);
     }
 }
-void QuickSorting::swap(int f_element,int s_element){
-    int temp = *(this->numbers+f_element);
-    *(this->numbers+f_element) = *(this->numbers+s_element);
-    *(this->numbers+s_element) = temp;
-}
+
 int QuickSorting::partition(int low,int high){
     int pivot = *(this->numbers+high);
     int partitioning_index = low;
